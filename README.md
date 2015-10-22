@@ -1,5 +1,7 @@
 This repository contains information related to Covana, a tool presented in the International Conference on Software Engineering 2011.
 
+[Official Project Page] (http://research.csc.ncsu.edu/ase/projects/covana/)
+
 Covana: Precise Identification of Problems for Structural Test Generation 
 ==========================================================================
 
