@@ -1,7 +1,7 @@
 ### How to build a windows VM with Visual Studio 2010 installed:
 
   1.  Download and install [VirtualBox] (https://www.virtualbox.org/wiki/Downloads)
-  2.  Download and install Vagrant (https://www.vagrantup.com/downloads.html)
+  2.  Download and install [Vagrant] (https://www.vagrantup.com/downloads.html)
   3.  Clone this repoitory:
          https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana.git
   5.  Navigate to the build-vm folder of the cloned repository on your host machine
