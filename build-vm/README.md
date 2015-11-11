@@ -14,7 +14,7 @@
         
         d. Connect to it using WinRM
         
-        e. Make a folder for Visual Studio, download the trial version's ece and install it.
+        e. Make a folder for Visual Studio 2010 Professional, download the trial version's exe and install it.
         
 ## Acknowledgements
 I would like to thank the uploader of the windows basebox "datacastle/windows7" for making it availble on vagrant cloud.
