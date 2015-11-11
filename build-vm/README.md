@@ -7,7 +7,7 @@
   5.  Navigate to the build-vm folder of the cloned repository on your host machine
   6.  Run *vagrant up* to set up the vm. This would do following:
   
-        a.Download and add the base box image in Vagrant. Adding the base box would remove the need for further            downloads when the box is brought up at a later point of time.
+        a.Download and add the base box image in Vagrant. Adding the base box would remove the need for further downloads when the box is brought up at a later point of time.
 
         b. Create virtual machine using this image.
         
