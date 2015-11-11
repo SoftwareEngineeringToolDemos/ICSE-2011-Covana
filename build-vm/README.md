@@ -2,7 +2,7 @@
 
   1.  Download and install [VirtualBox] (https://www.virtualbox.org/wiki/Downloads)
   2.  Download and install [Vagrant] (https://www.vagrantup.com/downloads.html)
-  3.  Clone this Repository by using *git clone https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana.git*
+  3.  Clone this Repository by using **git clone https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana.git**
   5.  Navigate to the build-vm folder of the cloned repository on your host machine
   6.  Run *vagrant up* to set up the vm. This would do following:
   
