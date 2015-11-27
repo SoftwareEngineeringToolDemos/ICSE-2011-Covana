@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfglist>
+	<cfg methodName="ExternalLib.ExternalObj..ctor(ExternalLib.ExternalObj)">
+	<vertices>
+		<vertex id="0" kind="Entry" offset="0"></vertex>
+		<vertex id="1" kind="Normal" offset="1"></vertex>
+		<vertex id="6" kind="Normal" offset="6"></vertex>
+	</vertices>
+	<edges>
+		<edge sourceid="0" targetid="1"></edge>
+		<edge sourceid="1" targetid="6"></edge>
+	</edges>
+
+	</cfg>
+</cfglist>

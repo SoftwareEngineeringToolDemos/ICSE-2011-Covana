@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfglist>
+	<cfg methodName="Benchmarks.Stack..ctor(Benchmarks.Stack)">
+	<vertices>
+		<vertex id="0" kind="Entry" offset="0"></vertex>
+		<vertex id="1" kind="Normal" offset="1"></vertex>
+		<vertex id="6" kind="Normal" offset="6"></vertex>
+		<vertex id="7" kind="Normal" offset="7"></vertex>
+		<vertex id="8" kind="Normal" offset="8"></vertex>
+		<vertex id="9" kind="Normal" offset="9"></vertex>
+		<vertex id="14" kind="Normal" offset="14"></vertex>
+		<vertex id="19" kind="Normal" offset="19"></vertex>
+		<vertex id="20" kind="Normal" offset="20"></vertex>
+	</vertices>
+	<edges>
+		<edge sourceid="0" targetid="1"></edge>
+		<edge sourceid="1" targetid="6"></edge>
+		<edge sourceid="6" targetid="7"></edge>
+		<edge sourceid="7" targetid="8"></edge>
+		<edge sourceid="8" targetid="9"></edge>
+		<edge sourceid="9" targetid="14"></edge>
+		<edge sourceid="14" targetid="19"></edge>
+		<edge sourceid="19" targetid="20"></edge>
+	</edges>
+
+	</cfg>
+	<cfg methodName="Benchmarks.Stack.get_Count(Benchmarks.Stack)">
+	<vertices>
+		<vertex id="0" kind="Entry" offset="0"></vertex>
+		<vertex id="1" kind="Normal" offset="1"></vertex>
+		<vertex id="2" kind="Normal" offset="2"></vertex>
+		<vertex id="7" kind="Normal" offset="7"></vertex>
+		<vertex id="12" kind="Normal" offset="12"></vertex>
+		<vertex id="13" kind="Normal" offset="13"></vertex>
+		<vertex id="15" kind="Normal" offset="15"></vertex>
+		<vertex id="16" kind="Normal" offset="16"></vertex>
+	</vertices>
+	<edges>
+		<edge sourceid="0" targetid="1"></edge>
+		<edge sourceid="1" targetid="2"></edge>
+		<edge sourceid="2" targetid="7"></edge>
+		<edge sourceid="7" targetid="12"></edge>
+		<edge sourceid="12" targetid="13"></edge>
+		<edge sourceid="13" targetid="15"></edge>
+		<edge sourceid="15" targetid="16"></edge>
+	</edges>
+
+	</cfg>
+	<cfg methodName="Benchmarks.Stack.Push(Benchmarks.Stack,System.Object)">
+	<vertices>
+		<vertex id="0" kind="Entry" offset="0"></vertex>
+		<vertex id="1" kind="Normal" offset="1"></vertex>
+		<vertex id="2" kind="Normal" offset="2"></vertex>
+		<vertex id="7" kind="Normal" offset="7"></vertex>
+		<vertex id="8" kind="Normal" offset="8"></vertex>
+		<vertex id="13" kind="Normal" offset="13"></vertex>
+		<vertex id="14" kind="Normal" offset="14"></vertex>
+	</vertices>
+	<edges>
+		<edge sourceid="0" targetid="1"></edge>
+		<edge sourceid="1" targetid="2"></edge>
+		<edge sourceid="2" targetid="7"></edge>
+		<edge sourceid="7" targetid="8"></edge>
+		<edge sourceid="8" targetid="13"></edge>
+		<edge sourceid="13" targetid="14"></edge>
+	</edges>
+
+	</cfg>
+	<cfg methodName="Benchmarks.Stack.Pop(Benchmarks.Stack)">
+	<vertices>
+		<vertex id="0" kind="Entry" offset="0"></vertex>
+		<vertex id="1" kind="Normal" offset="1"></vertex>
+		<vertex id="2" kind="Normal" offset="2"></vertex>
+		<vertex id="7" kind="Normal" offset="7"></vertex>
+		<vertex id="12" kind="Normal" offset="12"></vertex>
+		<vertex id="13" kind="Normal" offset="13"></vertex>
+		<vertex id="15" kind="Normal" offset="15"></vertex>
+		<vertex id="16" kind="Normal" offset="16"></vertex>
+		<vertex id="18" kind="Normal" offset="18"></vertex>
+		<vertex id="19" kind="Normal" offset="19"></vertex>
+		<vertex id="20" kind="Normal" offset="20"></vertex>
+		<vertex id="22" kind="Normal" offset="22"></vertex>
+		<vertex id="23" kind="Normal" offset="23"></vertex>
+		<vertex id="24" kind="Normal" offset="24"></vertex>
+		<vertex id="29" kind="Normal" offset="29"></vertex>
+		<vertex id="30" kind="Normal" offset="30"></vertex>
+		<vertex id="35" kind="Normal" offset="35"></vertex>
+		<vertex id="40" kind="Normal" offset="40"></vertex>
+		<vertex id="41" kind="Normal" offset="41"></vertex>
+		<vertex id="42" kind="Normal" offset="42"></vertex>
+		<vertex id="47" kind="Normal" offset="47"></vertex>
+		<vertex id="48" kind="Normal" offset="48"></vertex>
+		<vertex id="49" kind="Normal" offset="49"></vertex>
+		<vertex id="54" kind="Normal" offset="54"></vertex>
+		<vertex id="55" kind="Normal" offset="55"></vertex>
+		<vertex id="60" kind="Normal" offset="60"></vertex>
+		<vertex id="65" kind="Normal" offset="65"></vertex>
+		<vertex id="66" kind="Normal" offset="66"></vertex>
+		<vertex id="67" kind="Normal" offset="67"></vertex>
+		<vertex id="72" kind="Normal" offset="72"></vertex>
+		<vertex id="73" kind="Normal" offset="73"></vertex>
+		<vertex id="74" kind="Normal" offset="74"></vertex>
+		<vertex id="75" kind="Normal" offset="75"></vertex>
+		<vertex id="77" kind="Normal" offset="77"></vertex>
+		<vertex id="82" kind="Normal" offset="82"></vertex>
+		<vertex id="87" kind="Normal" offset="87"></vertex>
+		<vertex id="88" kind="Normal" offset="88"></vertex>
+		<vertex id="89" kind="Normal" offset="89"></vertex>
+	</vertices>
+	<edges>
+		<edge sourceid="0" targetid="1"></edge>
+		<edge sourceid="1" targetid="2"></edge>
+		<edge sourceid="2" targetid="7"></edge>
+		<edge sourceid="7" targetid="12"></edge>
+		<edge sourceid="12" targetid="13"></edge>
+		<edge sourceid="13" targetid="15"></edge>
+		<edge sourceid="15" targetid="16"></edge>
+		<edge sourceid="16" targetid="18"></edge>
+		<edge sourceid="18" targetid="19"></edge>
+		<edge sourceid="19" targetid="20"></edge>
+		<edge sourceid="20" targetid="77"></edge>
+		<edge sourceid="20" targetid="22"></edge>
+		<edge sourceid="22" targetid="23"></edge>
+		<edge sourceid="23" targetid="24"></edge>
+		<edge sourceid="24" targetid="29"></edge>
+		<edge sourceid="29" targetid="30"></edge>
+		<edge sourceid="30" targetid="35"></edge>
+		<edge sourceid="35" targetid="40"></edge>
+		<edge sourceid="40" targetid="41"></edge>
+		<edge sourceid="41" targetid="42"></edge>
+		<edge sourceid="42" targetid="47"></edge>
+		<edge sourceid="47" targetid="48"></edge>
+		<edge sourceid="48" targetid="49"></edge>
+		<edge sourceid="49" targetid="54"></edge>
+		<edge sourceid="54" targetid="55"></edge>
+		<edge sourceid="55" targetid="60"></edge>
+		<edge sourceid="60" targetid="65"></edge>
+		<edge sourceid="65" targetid="66"></edge>
+		<edge sourceid="66" targetid="67"></edge>
+		<edge sourceid="67" targetid="72"></edge>
+		<edge sourceid="72" targetid="73"></edge>
+		<edge sourceid="73" targetid="74"></edge>
+		<edge sourceid="74" targetid="75"></edge>
+		<edge sourceid="75" targetid="88"></edge>
+		<edge sourceid="77" targetid="82"></edge>
+		<edge sourceid="82" targetid="87"></edge>
+		<edge sourceid="88" targetid="89"></edge>
+	</edges>
+
+	</cfg>
+	<cfg methodName="Benchmarks.FixedSizeStack..ctor(Benchmarks.FixedSizeStack,Benchmarks.Stack)">
+	<vertices>
+		<vertex id="0" kind="Entry" offset="0"></vertex>
+		<vertex id="1" kind="Normal" offset="1"></vertex>
+		<vertex id="6" kind="Normal" offset="6"></vertex>
+		<vertex id="7" kind="Normal" offset="7"></vertex>
+		<vertex id="8" kind="Normal" offset="8"></vertex>
+		<vertex id="9" kind="Normal" offset="9"></vertex>
+		<vertex id="10" kind="Normal" offset="10"></vertex>
+		<vertex id="15" kind="Normal" offset="15"></vertex>
+		<vertex id="16" kind="Normal" offset="16"></vertex>
+	</vertices>
+	<edges>
+		<edge sourceid="0" targetid="1"></edge>
+		<edge sourceid="1" targetid="6"></edge>
+		<edge sourceid="6" targetid="7"></edge>
+		<edge sourceid="7" targetid="8"></edge>
+		<edge sourceid="8" targetid="9"></edge>
+		<edge sourceid="9" targetid="10"></edge>
+		<edge sourceid="10" targetid="15"></edge>
+		<edge sourceid="15" targetid="16"></edge>
+	</edges>
+
+	</cfg>
+	<cfg methodName="Benchmarks.FixedSizeStack.Push(Benchmarks.FixedSizeStack,System.Object)">
+	<vertices>
+		<vertex id="0" kind="Entry" offset="0"></vertex>
+		<vertex id="1" kind="Normal" offset="1"></vertex>
+		<vertex id="2" kind="Normal" offset="2"></vertex>
+		<vertex id="7" kind="Normal" offset="7"></vertex>
+		<vertex id="12" kind="Normal" offset="12"></vertex>
+		<vertex id="14" kind="Normal" offset="14"></vertex>
+		<vertex id="16" kind="Normal" offset="16"></vertex>
+		<vertex id="17" kind="Normal" offset="17"></vertex>
+		<vertex id="19" kind="Normal" offset="19"></vertex>
+		<vertex id="20" kind="Normal" offset="20"></vertex>
+		<vertex id="21" kind="Normal" offset="21"></vertex>
+		<vertex id="23" kind="Normal" offset="23"></vertex>
+		<vertex id="24" kind="Normal" offset="24"></vertex>
+		<vertex id="29" kind="Normal" offset="29"></vertex>
+		<vertex id="34" kind="Normal" offset="34"></vertex>
+		<vertex id="35" kind="Normal" offset="35"></vertex>
+		<vertex id="36" kind="Normal" offset="36"></vertex>
+		<vertex id="41" kind="Normal" offset="41"></vertex>
+		<vertex id="42" kind="Normal" offset="42"></vertex>
+		<vertex id="47" kind="Normal" offset="47"></vertex>
+		<vertex id="48" kind="Normal" offset="48"></vertex>
+	</vertices>
+	<edges>
+		<edge sourceid="0" targetid="1"></edge>
+		<edge sourceid="1" targetid="2"></edge>
+		<edge sourceid="2" targetid="7"></edge>
+		<edge sourceid="7" targetid="12"></edge>
+		<edge sourceid="12" targetid="14"></edge>
+		<edge sourceid="14" targetid="16"></edge>
+		<edge sourceid="16" targetid="17"></edge>
+		<edge sourceid="17" targetid="19"></edge>
+		<edge sourceid="19" targetid="20"></edge>
+		<edge sourceid="20" targetid="21"></edge>
+		<edge sourceid="21" targetid="35"></edge>
+		<edge sourceid="21" targetid="23"></edge>
+		<edge sourceid="23" targetid="24"></edge>
+		<edge sourceid="24" targetid="29"></edge>
+		<edge sourceid="29" targetid="34"></edge>
+		<edge sourceid="35" targetid="36"></edge>
+		<edge sourceid="36" targetid="41"></edge>
+		<edge sourceid="41" targetid="42"></edge>
+		<edge sourceid="42" targetid="47"></edge>
+		<edge sourceid="47" targetid="48"></edge>
+	</edges>
+
+	</cfg>
+	<cfg methodName="Benchmarks.FixedSizeStackTest..ctor(Benchmarks.FixedSizeStackTest)">
+	<vertices>
+		<vertex id="0" kind="Entry" offset="0"></vertex>
+		<vertex id="1" kind="Normal" offset="1"></vertex>
+		<vertex id="6" kind="Normal" offset="6"></vertex>
+	</vertices>
+	<edges>
+		<edge sourceid="0" targetid="1"></edge>
+		<edge sourceid="1" targetid="6"></edge>
+	</edges>
+
+	</cfg>
+	<cfg methodName="Benchmarks.FixedSizeStackTest.TestPush(Benchmarks.FixedSizeStackTest,Benchmarks.FixedSizeStack,System.Object)">
+	<vertices>
+		<vertex id="0" kind="Entry" offset="0"></vertex>
+		<vertex id="1" kind="Normal" offset="1"></vertex>
+		<vertex id="2" kind="Normal" offset="2"></vertex>
+		<vertex id="3" kind="Normal" offset="3"></vertex>
+		<vertex id="8" kind="Normal" offset="8"></vertex>
+		<vertex id="9" kind="Normal" offset="9"></vertex>
+	</vertices>
+	<edges>
+		<edge sourceid="0" targetid="1"></edge>
+		<edge sourceid="1" targetid="2"></edge>
+		<edge sourceid="2" targetid="3"></edge>
+		<edge sourceid="3" targetid="8"></edge>
+		<edge sourceid="8" targetid="9"></edge>
+	</edges>
+
+	</cfg>
+	<cfg methodName="Benchmarks.ExternalMethodsReturnValueTest..ctor(Benchmarks.ExternalMethodsReturnValueTest)">
+	<vertices>
+		<vertex id="0" kind="Entry" offset="0"></vertex>
+		<vertex id="1" kind="Normal" offset="1"></vertex>
+		<vertex id="6" kind="Normal" offset="6"></vertex>
+	</vertices>
+	<edges>
+		<edge sourceid="0" targetid="1"></edge>
+		<edge sourceid="1" targetid="6"></edge>
+	</edges>
+
+	</cfg>
+	<cfg methodName="Benchmarks.ExternalMethodsReturnValueTest.ExternalMethodReturnValueTest(Benchmarks.ExternalMethodsReturnValueTest,System.Int32)">
+	<vertices>
+		<vertex id="0" kind="Entry" offset="0"></vertex>
+		<vertex id="1" kind="Normal" offset="1"></vertex>
+		<vertex id="2" kind="Normal" offset="2"></vertex>
+		<vertex id="7" kind="Normal" offset="7"></vertex>
+		<vertex id="8" kind="Normal" offset="8"></vertex>
+		<vertex id="13" kind="Normal" offset="13"></vertex>
+		<vertex id="18" kind="Normal" offset="18"></vertex>
+		<vertex id="19" kind="Normal" offset="19"></vertex>
+		<vertex id="24" kind="Normal" offset="24"></vertex>
+		<vertex id="29" kind="Normal" offset="29"></vertex>
+		<vertex id="34" kind="Normal" offset="34"></vertex>
+		<vertex id="35" kind="Normal" offset="35"></vertex>
+		<vertex id="36" kind="Normal" offset="36"></vertex>
+		<vertex id="37" kind="Normal" offset="37"></vertex>
+		<vertex id="39" kind="Normal" offset="39"></vertex>
+		<vertex id="40" kind="Normal" offset="40"></vertex>
+		<vertex id="42" kind="Normal" offset="42"></vertex>
+		<vertex id="43" kind="Normal" offset="43"></vertex>
+		<vertex id="44" kind="Normal" offset="44"></vertex>
+		<vertex id="46" kind="Normal" offset="46"></vertex>
+		<vertex id="47" kind="Normal" offset="47"></vertex>
+		<vertex id="52" kind="Normal" offset="52"></vertex>
+		<vertex id="57" kind="Normal" offset="57"></vertex>
+		<vertex id="58" kind="Normal" offset="58"></vertex>
+		<vertex id="59" kind="Normal" offset="59"></vertex>
+	</vertices>
+	<edges>
+		<edge sourceid="0" targetid="1"></edge>
+		<edge sourceid="1" targetid="2"></edge>
+		<edge sourceid="2" targetid="7"></edge>
+		<edge sourceid="7" targetid="8"></edge>
+		<edge sourceid="8" targetid="13"></edge>
+		<edge sourceid="13" targetid="18"></edge>
+		<edge sourceid="18" targetid="19"></edge>
+		<edge sourceid="19" targetid="24"></edge>
+		<edge sourceid="24" targetid="29"></edge>
+		<edge sourceid="29" targetid="34"></edge>
+		<edge sourceid="34" targetid="35"></edge>
+		<edge sourceid="35" targetid="36"></edge>
+		<edge sourceid="36" targetid="37"></edge>
+		<edge sourceid="37" targetid="39"></edge>
+		<edge sourceid="39" targetid="40"></edge>
+		<edge sourceid="40" targetid="42"></edge>
+		<edge sourceid="42" targetid="43"></edge>
+		<edge sourceid="43" targetid="44"></edge>
+		<edge sourceid="44" targetid="59"></edge>
+		<edge sourceid="44" targetid="46"></edge>
+		<edge sourceid="46" targetid="47"></edge>
+		<edge sourceid="47" targetid="52"></edge>
+		<edge sourceid="52" targetid="57"></edge>
+		<edge sourceid="57" targetid="58"></edge>
+		<edge sourceid="58" targetid="59"></edge>
+	</edges>
+
+	</cfg>
+	<cfg methodName="Benchmarks.CombinePathUtility..ctor(Benchmarks.CombinePathUtility)">
+	<vertices>
+		<vertex id="0" kind="Entry" offset="0"></vertex>
+		<vertex id="1" kind="Normal" offset="1"></vertex>
+		<vertex id="6" kind="Normal" offset="6"></vertex>
+	</vertices>
+	<edges>
+		<edge sourceid="0" targetid="1"></edge>
+		<edge sourceid="1" targetid="6"></edge>
+	</edges>
+
+	</cfg>
+	<cfg methodName="Benchmarks.ExceptionThrownbyExternalMethodsTest..ctor(Benchmarks.ExceptionThrownbyExternalMethodsTest)">
+	<vertices>
+		<vertex id="0" kind="Entry" offset="0"></vertex>
+		<vertex id="1" kind="Normal" offset="1"></vertex>
+		<vertex id="6" kind="Normal" offset="6"></vertex>
+	</vertices>
+	<edges>
+		<edge sourceid="0" targetid="1"></edge>
+		<edge sourceid="1" targetid="6"></edge>
+	</edges>
+
+	</cfg>
+	<cfg methodName="Benchmarks.ExceptionThrownbyExternalMethodsTest.TestPrintPath(Benchmarks.ExceptionThrownbyExternalMethodsTest,System.String)">
+	<vertices>
+		<vertex id="0" kind="Entry" offset="0"></vertex>
+		<vertex id="1" kind="Normal" offset="1"></vertex>
+		<vertex id="2" kind="Normal" offset="2"></vertex>
+		<vertex id="7" kind="Normal" offset="7"></vertex>
+		<vertex id="8" kind="Normal" offset="8"></vertex>
+	</vertices>
+	<edges>
+		<edge sourceid="0" targetid="1"></edge>
+		<edge sourceid="1" targetid="2"></edge>
+		<edge sourceid="2" targetid="7"></edge>
+		<edge sourceid="7" targetid="8"></edge>
+	</edges>
+
+	</cfg>
+</cfglist>

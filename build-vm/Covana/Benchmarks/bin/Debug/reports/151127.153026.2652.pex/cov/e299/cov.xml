@@ -1,0 +1,298 @@
+﻿<documents created="2015-11-27 23:30:34Z"><document src="C:\Users\vagrant\Downloads\CovanaReleaseV0.1\Covana\Benchmarks\FixedSizeStackTest.cs" renderPrefix="s0"><chunk hits="-1" domain="unknown"><source><![CDATA[using System;
+using System.Collections.Generic;
+using Microsoft.Pex.Framework;
+using Covana.ProblemExtractor;
+
+namespace Benchmarks
+{
+    public class Stack
+    {
+        private List<object> items;
+
+        ]]></source>
+</chunk>
+<method name=".ctor" namespace="Benchmarks" type="Benchmarks.Stack" typeName="Stack" token="6000001" module="Benchmarks.dll"><hits/>
+<coverage domain="userortestcode" unit="block" covered="0" total="3" coveredRatio="0"/>
+</method>
+<chunk hits="0" offset="0000" domain="userortestcode"><source><![CDATA[public Stack()]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+        ]]></source>
+</chunk>
+<chunk hits="0" offset="0007" domain="userortestcode"><source><![CDATA[{]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            ]]></source>
+</chunk>
+<chunk hits="0" offset="0008" domain="userortestcode"><source><![CDATA[items = new List<object>();]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+        ]]></source>
+</chunk>
+<chunk hits="0" offset="0013" domain="userortestcode"><source><![CDATA[}]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+
+
+        public int Count
+        {
+            get ]]></source>
+</chunk>
+<method name="get_Count" namespace="Benchmarks" type="Benchmarks.Stack" typeName="Stack" token="6000002" module="Benchmarks.dll"><hits><hit index="0" value="1"/>
+<hit index="1" value="1"/>
+<hit index="2" value="1"/>
+<hit index="3" value="1"/>
+<hit index="4" value="1"/>
+<hit index="5" value="2"/>
+</hits>
+<coverage domain="userortestcode" unit="block" covered="2" total="2" coveredRatio="1"/>
+</method>
+<chunk hits="1" offset="0000" domain="userortestcode"><source><![CDATA[{]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[ ]]></source>
+</chunk>
+<chunk hits="1" offset="0001" domain="userortestcode"><source><![CDATA[return items.Count;]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[ ]]></source>
+</chunk>
+<chunk hits="3" offset="000f" domain="userortestcode"><source><![CDATA[}]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+        }
+
+        public void Push(object item)
+        ]]></source>
+</chunk>
+<method name="Push" namespace="Benchmarks" type="Benchmarks.Stack" typeName="Stack" token="6000003" module="Benchmarks.dll"><hits><hit index="0" value="1"/>
+<hit index="1" value="1"/>
+<hit index="2" value="1"/>
+<hit index="3" value="1"/>
+<hit index="4" value="1"/>
+<hit index="5" value="2"/>
+</hits>
+<coverage domain="userortestcode" unit="block" covered="2" total="2" coveredRatio="1"/>
+</method>
+<chunk hits="1" offset="0000" domain="userortestcode"><source><![CDATA[{]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            ]]></source>
+</chunk>
+<chunk hits="1" offset="0001" domain="userortestcode"><source><![CDATA[items.Add(item);]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+        ]]></source>
+</chunk>
+<chunk hits="3" offset="000e" domain="userortestcode"><source><![CDATA[}]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+
+        public object Pop()
+        {
+            if (items.Count > 0)
+            {
+                object result = items[items.Count - 1];
+                items.RemoveAt(items.Count - 1);
+                return result;
+            }
+            throw new Exception("empty");
+        }
+    }
+
+    public class FixedSizeStack
+    {
+        private Stack stack;
+
+        ]]></source>
+</chunk>
+<method name=".ctor" namespace="Benchmarks" type="Benchmarks.FixedSizeStack" typeName="FixedSizeStack" token="6000005" module="Benchmarks.dll"><hits/>
+<coverage domain="usercodeundertest" unit="block" covered="0" total="2" coveredRatio="0"/>
+</method>
+<chunk hits="0" offset="0000" domain="usercodeundertest"><source><![CDATA[public FixedSizeStack(Stack stack)]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+        ]]></source>
+</chunk>
+<chunk hits="0" offset="0007" domain="usercodeundertest"><source><![CDATA[{]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            ]]></source>
+</chunk>
+<chunk hits="0" offset="0008" domain="usercodeundertest"><source><![CDATA[this.stack = stack;]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+        ]]></source>
+</chunk>
+<chunk hits="0" offset="000f" domain="usercodeundertest"><source><![CDATA[}]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+
+        public void Push(object item)
+        ]]></source>
+</chunk>
+<method name="Push" namespace="Benchmarks" type="Benchmarks.FixedSizeStack" typeName="FixedSizeStack" token="6000006" module="Benchmarks.dll"><hits><hit index="0" value="1"/>
+<hit index="1" value="1"/>
+<hit index="2" value="1"/>
+<hit index="3" value="1"/>
+<hit index="4" value="1"/>
+<hit index="5" value="2"/>
+<hit index="6" value="1"/>
+<hit index="7" value="1"/>
+<hit index="9" value="1"/>
+<hit index="10" value="1"/>
+<hit index="11" value="1"/>
+<hit index="12" value="1"/>
+<hit index="13" value="1"/>
+<hit index="14" value="1"/>
+<hit index="15" value="2"/>
+<hit index="16" value="1"/>
+<hit index="17" value="1"/>
+<hit index="18" value="1"/>
+</hits>
+<coverage domain="usercodeundertest" unit="block" covered="6" total="6" coveredRatio="1"/>
+</method>
+<chunk hits="1" offset="0000" domain="usercodeundertest"><source><![CDATA[{]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            ]]></source>
+</chunk>
+<chunk hits="1" offset="0001" domain="usercodeundertest"><source><![CDATA[if (stack.Count == 10)]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            ]]></source>
+</chunk>
+<chunk hits="1" offset="0017" domain="usercodeundertest"><source><![CDATA[{]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+                ]]></source>
+</chunk>
+<chunk hits="1" offset="0018" domain="usercodeundertest"><source><![CDATA[throw new Exception("full");]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            }
+
+            ]]></source>
+</chunk>
+<chunk hits="1" offset="0023" domain="usercodeundertest"><source><![CDATA[stack.Push(item);]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+        ]]></source>
+</chunk>
+<chunk hits="3" offset="0030" domain="usercodeundertest"><source><![CDATA[}]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+    }
+
+    [PexClass(typeof(FixedSizeStack))]
+    public partial class FixedSizeStackTest
+    {
+        [PexMethod]
+        public void TestPush(FixedSizeStack stack, object item)
+        ]]></source>
+</chunk>
+<method name="TestPush" namespace="Benchmarks" type="Benchmarks.FixedSizeStackTest" typeName="FixedSizeStackTest" token="6000007" module="Benchmarks.dll"><hits><hit index="0" value="1"/>
+<hit index="1" value="1"/>
+<hit index="2" value="1"/>
+<hit index="3" value="1"/>
+<hit index="4" value="2"/>
+<hit index="5" value="1"/>
+<hit index="6" value="1"/>
+</hits>
+<coverage domain="userortestcode" unit="block" covered="2" total="2" coveredRatio="1"/>
+</method>
+<chunk hits="1" offset="0000" domain="userortestcode"><source><![CDATA[{]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            ]]></source>
+</chunk>
+<chunk hits="1" offset="0001" domain="userortestcode"><source><![CDATA[stack.Push(item);]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+        ]]></source>
+</chunk>
+<chunk hits="3" offset="0009" domain="userortestcode"><source><![CDATA[}]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+    }
+}]]></source>
+</chunk>
+</document>
+<document src="C:\Users\vagrant\Downloads\CovanaReleaseV0.1\Covana\Benchmarks\Factories\StackFactory.cs" renderPrefix="s1"><chunk hits="-1" domain="unknown"><source><![CDATA[// <copyright file="FixedSizeStackFactory.cs">Copyright �  2009</copyright>
+
+using System;
+using Microsoft.Pex.Framework;
+using Benchmarks;
+
+namespace Benchmarks
+{
+    /// <summary>A factory for Benchmarks.FixedSizeStack instances</summary>
+    public static class StackFactory
+    {
+        /// <summary>A factory for Benchmarks.FixedSizeStack instances</summary>
+        [PexFactoryMethod(typeof(Stack))]
+        public static Stack Create(object[] objs)
+        ]]></source>
+</chunk>
+<method name="Create" namespace="Benchmarks" type="Benchmarks.StackFactory" typeName="StackFactory" token="600000b" module="Benchmarks.dll"><hits/>
+<coverage domain="userortestcode" unit="block" covered="0" total="6" coveredRatio="0"/>
+</method>
+<chunk hits="0" offset="0000" domain="userortestcode"><source><![CDATA[{]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            ]]></source>
+</chunk>
+<chunk hits="0" offset="0001" domain="userortestcode"><source><![CDATA[PexAssume.IsTrue(objs.Length < 15);]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            ]]></source>
+</chunk>
+<chunk hits="0" offset="000e" domain="userortestcode"><source><![CDATA[Stack stack = new Stack();]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            for (]]></source>
+</chunk>
+<chunk hits="0" offset="0014" domain="userortestcode"><source><![CDATA[int i = 0;]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[ ]]></source>
+</chunk>
+<chunk hits="0" offset="0028" domain="userortestcode"><source><![CDATA[i < objs.Length]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[;]]></source>
+</chunk>
+<chunk hits="0" offset="0024" domain="userortestcode"><source><![CDATA[i++]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[ )
+            ]]></source>
+</chunk>
+<chunk hits="0" offset="0018" domain="userortestcode"><source><![CDATA[{]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+                ]]></source>
+</chunk>
+<chunk hits="0" offset="0019" domain="userortestcode"><source><![CDATA[stack.Push(objs[i]);]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            ]]></source>
+</chunk>
+<chunk hits="0" offset="0023" domain="userortestcode"><source><![CDATA[}]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            ]]></source>
+</chunk>
+<chunk hits="0" offset="0032" domain="userortestcode"><source><![CDATA[return stack;]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+        ]]></source>
+</chunk>
+<chunk hits="0" offset="0036" domain="userortestcode"><source><![CDATA[}]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+    }
+}
+]]></source>
+</chunk>
+</document>
+<document src="(no sources available for some parts of Benchmarks.Explorables)" missing="true"><method name="Create" type="Benchmarks.FixedSizeStackFactory" token="6000002" module="&lt;In Memory Module&gt;"><hits/>
+<coverage domain="userortestcode" unit="block" covered="0" total="2" coveredRatio="0"/>
+</method>
+</document>
+</documents>

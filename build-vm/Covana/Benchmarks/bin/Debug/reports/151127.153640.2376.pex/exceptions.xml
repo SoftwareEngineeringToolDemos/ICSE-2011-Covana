@@ -1,0 +1,67 @@
+﻿<frameTree version="0.94.51006.1"><frameException type="System.NullReferenceException"><tag exceptionState="unexpected"><generatedTestRef idref="9e9195f7-058a-4458-9e29-1ff06670d28f"/>
+</tag>
+<frameNode><frame value="  at FixedSizeStackTest.TestPush(FixedSizeStack, Object) in C:\Users\vagrant\Downloads\CovanaReleaseV0.1\Covana\Benchmarks\FixedSizeStackTest.cs(66)" method="FixedSizeStackTest.TestPush(FixedSizeStack, Object)" offset="1" file="C:\Users\vagrant\Downloads\CovanaReleaseV0.1\Covana\Benchmarks\FixedSizeStackTest.cs" line="66"><method assemblyName="Benchmarks" name="TestPush" token="6000007"><declaringType assemblyName="Benchmarks" name="FixedSizeStackTest" token="2000004" namespace="Benchmarks"/>
+<parameter this="true" name="this" position="0"><type spec="Class"><definition assemblyName="Benchmarks" name="FixedSizeStackTest" token="2000004" namespace="Benchmarks"/>
+</type>
+</parameter>
+<parameter name="stack" position="1"><type spec="Class"><definition assemblyName="Benchmarks" name="FixedSizeStack" token="2000003" namespace="Benchmarks"/>
+</type>
+</parameter>
+<parameter name="item" position="2"><type spec="Class"><definition assemblyName="mscorlib" name="Object" token="2000002" namespace="System"/>
+</type>
+</parameter>
+</method>
+<beforeSource><![CDATA[        [PexMethod]
+        public void TestPush(FixedSizeStack stack, object item)
+        {]]></beforeSource>
+<source><![CDATA[            stack.Push(item);]]></source>
+<afterSource><![CDATA[        }
+    }
+}]]></afterSource>
+</frame>
+<tag exceptionState="unexpected"><generatedTestRef idref="9e9195f7-058a-4458-9e29-1ff06670d28f"/>
+</tag>
+</frameNode>
+<frameNode><frame value="  at FixedSizeStack.Push(Object) in C:\Users\vagrant\Downloads\CovanaReleaseV0.1\Covana\Benchmarks\FixedSizeStackTest.cs(51)" method="FixedSizeStack.Push(Object)" offset="1" file="C:\Users\vagrant\Downloads\CovanaReleaseV0.1\Covana\Benchmarks\FixedSizeStackTest.cs" line="51"><method assemblyName="Benchmarks" name="Push" token="6000006"><declaringType assemblyName="Benchmarks" name="FixedSizeStack" token="2000003" namespace="Benchmarks"/>
+<parameter this="true" name="this" position="0"><type spec="Class"><definition assemblyName="Benchmarks" name="FixedSizeStack" token="2000003" namespace="Benchmarks"/>
+</type>
+</parameter>
+<parameter name="item" position="1"><type spec="Class"><definition assemblyName="mscorlib" name="Object" token="2000002" namespace="System"/>
+</type>
+</parameter>
+</method>
+<beforeSource><![CDATA[
+        public void Push(object item)
+        {]]></beforeSource>
+<source><![CDATA[            if (stack.Count == 10)]]></source>
+<afterSource><![CDATA[            {
+                throw new Exception("full");
+            }]]></afterSource>
+</frame>
+<tag exceptionState="unexpected"><generatedTestRef idref="34291752-6180-439b-affd-c97acf7fd112"/>
+</tag>
+</frameNode>
+</frameException>
+<frameException type="System.Exception"><tag exceptionState="unexpected"><generatedTestRef idref="0546869f-5fec-4f5d-a33c-b4c0fe20e7dc"/>
+</tag>
+<frameNode><frame value="  at FixedSizeStack.Push(Object) in C:\Users\vagrant\Downloads\CovanaReleaseV0.1\Covana\Benchmarks\FixedSizeStackTest.cs(53)" method="FixedSizeStack.Push(Object)" offset="34" file="C:\Users\vagrant\Downloads\CovanaReleaseV0.1\Covana\Benchmarks\FixedSizeStackTest.cs" line="53"><method assemblyName="Benchmarks" name="Push" token="6000006"><declaringType assemblyName="Benchmarks" name="FixedSizeStack" token="2000003" namespace="Benchmarks"/>
+<parameter this="true" name="this" position="0"><type spec="Class"><definition assemblyName="Benchmarks" name="FixedSizeStack" token="2000003" namespace="Benchmarks"/>
+</type>
+</parameter>
+<parameter name="item" position="1"><type spec="Class"><definition assemblyName="mscorlib" name="Object" token="2000002" namespace="System"/>
+</type>
+</parameter>
+</method>
+<beforeSource><![CDATA[        {
+            if (stack.Count == 10)
+            {]]></beforeSource>
+<source><![CDATA[                throw new Exception("full");]]></source>
+<afterSource><![CDATA[            }
+
+            stack.Push(item);]]></afterSource>
+</frame>
+<tag exceptionState="unexpected"><generatedTestRef idref="0546869f-5fec-4f5d-a33c-b4c0fe20e7dc"/>
+</tag>
+</frameNode>
+</frameException>
+</frameTree>
