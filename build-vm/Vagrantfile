@@ -49,7 +49,7 @@ Vagrant.configure(2) do |config|
      vb.gui = true
   #
   #   # Customize the amount of memory on the VM:
-     vb.memory = "1024"
+     vb.memory = "2048"
    end
   #
   # View the documentation for the provider you are using for more
@@ -77,10 +77,11 @@ Vagrant.configure(2) do |config|
     Start-Process .\\pex.msi /q -Wait
     SHELL
    config.vm.provision "shell", inline:<<-SHELL
-    xcopy C:\\vagrant\License.txt C:\\Users\\vagrant\\Desktop
-    xcopy C:\\vagrant\README.txt C:\\Users\\vagrant\\Desktop
-    xcopy C:\\vagrant\Installation.txt C:\\Users\\vagrant\\Desktop
-    xcopy "C:\\vagrant\\Covana Demo CSC 510-Fall 2015 - YouTube.url" C:\\Users\\vagrant\Desktop
+    xcopy "C:\\vagrant\License.txt" "C:\\Users\\vagrant\\Desktop"
+    xcopy "C:\\vagrant\README.txt" "C:\\Users\\vagrant\\Desktop"
+    xcopy "C:\\vagrant\Installation.txt" "C:\\Users\\vagrant\\Desktop"
+    mkdir Covana
+    xcopy /s /i /e "C:\\vagrant\\Covana" "C:\\Users\\vagrant\\Desktop\\Covana"
     SHELL
     
     
