@@ -1,5 +1,9 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
+required_plugins = %w(  vagrant-reload )
+required_plugins.each do |plugin|
+  system "vagrant plugin install #{plugin}" unless Vagrant.has_plugin? plugin
+end
 
 # All Vagrant configuration is done below. The "2" in Vagrant.configure
 # configures the configuration version (we support older styles for
@@ -14,6 +18,30 @@ Vagrant.configure(2) do |config|
   # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "datacastle/windows7"
    
+
+  # Disable automatic box update checking. If you disable this, then
+  # boxes will only be checked for updates when the user runs
+  # `vagrant box outdated`. This is not recommended.
+  # config.vm.box_check_update = false
+
+  # Create a forwarded port mapping which allows access to a specific port
+  # within the machine from a port on the host machine. In the example below,
+  # accessing "localhost:8080" will access port 80 on the guest machine.
+  # config.vm.network "forwarded_port", guest: 80, host: 8080
+
+  # Create a private network, which allows host-only access to the machine
+  # using a specific IP.
+  # config.vm.network "private_network", ip: "192.168.33.10"
+
+  # Create a public network, which generally matched to bridged network.
+  # Bridged networks make the machine appear as another physical device on
+  # your network.
+  # config.vm.network "public_network"
+
+  # Share an additional folder to the guest VM. The first argument is
+  # the path on the host to the actual folder. The second argument is
+  # the path on the guest to mount the folder. And the optional third
+  # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
 
   # Provider-specific configuration so you can fine-tune various
@@ -35,10 +63,8 @@ Vagrant.configure(2) do |config|
     inline: "cd C:\\Users\\vagrant\\Desktop; mkdir visual_studio; cd visual_studio; wget -outf vs.exe download.microsoft.com/download/D/B/C/DBC11267-9597-46FF-8377-E194A73970D6/vs_proweb.exe; Start-Process \"vs.exe\" -ArgumentList \"/Passive\" -Wait"  
    config.vm.provision "shell", inline:<<-SHELL
     cd 'C:\\Users\\vagrant\\Desktop'
-    pwd
     mkdir pex
     cd pex
-    pwd
     wget -Outfile pex.msi http://ftp.research.microsoft.com/downloads/d2279651-851f-4d7a-bf05-16fd7eb26559/pex.academic.x86.msi 
     Start-Process .\\pex.msi /q -Wait
     SHELL
@@ -49,10 +75,21 @@ Vagrant.configure(2) do |config|
     xcopy "C:\\vagrant\\Covana Demo CSC 510-Fall 2015 - YouTube.url" "C:\\Users\\vagrant\\Desktop"
     mkdir Covana
     xcopy /s /i /e "C:\\vagrant\\Covana" "C:\\Users\\vagrant\\Desktop\\Covana"
-    xcopy "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\devenv.exe" "C:\\Users\\vagrant\\Desktop"
-    xcopy "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\devenv.exe" "C:\\Users\\vagrant\\AppData\\Roaming\\Microsoft\\Windows\Start Menu\\Programs\\Startup"
-    xcopy "C:\\vagrant\\Microsoft Visual Studio 2010.lnk" "C:\\Users\\vagrant\\Desktop"
+    #xcopy "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\devenv.exe" "C:\\Users\\vagrant\\Desktop"
+    #wget -OutFile License.txt https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana/raw/master/build-vm/License.txt
+    #wget -OutFile Installation.txt https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana/raw/master/build-vm/Installation.txt
+    #wget -OutFile Readme.txt https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana/raw/master/build-vm/README.txt
+    #wget -OutFile How_to_use_Covana_Youtube.url https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana/raw/master/build-vm/Covana_youtube.url
+    #create Desktop shortcut
+    $TargetFile = ""C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\devenv.exe"
+    $ShortcutFile = "C:\\Users\\vagrant\\Desktop\\devenv.exe.lnk"
+    $WScriptShell = New-Object -ComObject WScript.Shell
+    $Shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
+    $Shortcut.TargetPath = $TargetFile
+    $Shortcut.Save()
+    cp 'C:\\Users\\vagrant\\Desktop\\devenv.exe.lnk' 'C:\\Users\\vagrant\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup'
     SHELL
- 
+    #Restart for the changes to effect
+    config.vm.provision :reload
     
 end
