@@ -19,3 +19,5 @@ Once inside Visual Studio follow the follwing instructions:
 6.After Pex finish exploration, launch the project "CovanaAnalysisForm" using the run icon. A main window of Covana will show up.(as in youtube video)
 7. If there are build errors, chose the option to run last successful build.
 8. Click the "Analyse" button to get result.
+
+Ignore any warnings of low memory.
