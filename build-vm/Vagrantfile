@@ -87,9 +87,9 @@ Vagrant.configure(2) do |config|
     $Shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
     $Shortcut.TargetPath = $TargetFile
     $Shortcut.Save()
-    cp 'C:\\Users\\vagrant\\Desktop\\devenv.exe.lnk' 'C:\\Users\\vagrant\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup'
+    xcopy 'C:\\Users\\vagrant\\Desktop\\devenv.exe.lnk' 'C:\\Users\\vagrant\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup'
     SHELL
-    #Restart for the changes to effect
+    #Restart for the changes to take effect
     config.vm.provision :reload
     
 end
