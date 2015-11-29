@@ -18,7 +18,8 @@
   6.  You can also use the following credentials to log in to the system:
       *  Username: vagrant
       *  Password: vagrant
-
+      
+### NOTE: vagrant up takes 30-40 mins to complete.
 ## References
   *  [Vagrant shell documentation] (https://docs.vagrantup.com/v2/provisioning/shell.html)
 
