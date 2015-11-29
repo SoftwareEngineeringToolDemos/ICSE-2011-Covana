@@ -1,5 +1,6 @@
 * Instructions on how to use Covana for detecting problems in test programs (From Covana Source folder, credits to author)
-NOTE: This VM comes pre-installed with the tool, use these instructions only in case you want to install the tool from scratch.
+
+##NOTE: This VM comes pre-installed with the tool, use these instructions only in case you want to install the tool from scratch.
 
  First and foremost the tool works with Visual Studio 2010. So intall it.
 1. Install Pex from http://research.microsoft.com/en-us/downloads/d2279651-851f-4d7a-bf05-16fd7eb26559/default.aspx
