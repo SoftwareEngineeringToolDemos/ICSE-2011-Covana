@@ -3,6 +3,7 @@
 NOTE: This VM comes pre-installed with the tool, use these instructions only in case you want to install the tool from scratch.
 
  First and foremost the tool works with Visual Studio 2010. So intall it.
+ First and foremost install Visual Studio 2010 Professional on a windows box.
 1. Install Pex from http://research.microsoft.com/en-us/downloads/d2279651-851f-4d7a-bf05-16fd7eb26559/default.aspx
 2. Add Covana project into your project reference after downloading from http://pexase.codeplex.com/downloads/get/162796
 3. Add the following 5 properties in the AssemblyInfo.cs of your test project:
