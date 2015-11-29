@@ -11,7 +11,7 @@
 
         b. Create virtual machine using image.
 
-        c. Launch Winodws VM
+        c. Launch Winodws VM, if dialog box asks for restart, choose restart later.
 
         d. Install Visual Studio, Pex, Covana and downloads files such as installation, youtube video link etc.
 
