@@ -21,7 +21,6 @@
 
 ## References
   *  [Vagrant shell documentation] (https://docs.vagrantup.com/v2/provisioning/shell.html)
-  *  [Export command from Vagrantfile](http://stackoverflow.com/questions/21753422/set-path-in-vagrant-machine)
 
 ## Acknowledgements
 I would like to thank the uploader of the windows basebox "datacastle/windows7" for making it available on vagrant cloud.
