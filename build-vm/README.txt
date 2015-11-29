@@ -13,8 +13,9 @@ Once inside Visual Studio follow the follwing instructions:
 
 1.Open Covana folder on Desktop
 2.Open Covana.sln using Visual Studio.
-3.From the Benchmarks folder select FixedSizeStack.cs file.
-4. Right click on the method public void TestPush and select "Run PEX Explorations".
-5.After Pex finish exploration, launch the project "CovanaAnalysisForm" using the run icon. A main window of Covana will show up.(as in youtube video)
-6. If there are build errors, chose the option to run last successful build.
-7. Click the "Analyse" button to get result.
+3. Select General development Settings if prompted.
+4.From the Benchmarks folder select FixedSizeStack.cs file.
+5. Right click on the method public void TestPush and select "Run PEX Explorations".
+6.After Pex finish exploration, launch the project "CovanaAnalysisForm" using the run icon. A main window of Covana will show up.(as in youtube video)
+7. If there are build errors, chose the option to run last successful build.
+8. Click the "Analyse" button to get result.
