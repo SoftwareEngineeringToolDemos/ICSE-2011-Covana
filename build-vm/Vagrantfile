@@ -50,7 +50,7 @@ Vagrant.configure(2) do |config|
     mkdir Covana
     xcopy /s /i /e "C:\\vagrant\\Covana" "C:\\Users\\vagrant\\Desktop\\Covana"
     #create Desktop shortcut
-    $TargetFile = ""C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\devenv.exe"
+    $TargetFile = "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\devenv.exe"
     $ShortcutFile = "C:\\Users\\vagrant\\Desktop\\devenv.exe.lnk"
     $WScriptShell = New-Object -ComObject WScript.Shell
     $Shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
