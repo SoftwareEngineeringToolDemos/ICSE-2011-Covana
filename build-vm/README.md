@@ -9,7 +9,7 @@
         a.Download and add the base box image in Vagrant. Adding the base box would remove the need 
         for further downloads when the box is brought up at a later point of time.
 
-        b. Create virtual machine using this image.
+        b. Create virtual machine using image.
 
         c. Launch Winodws VM
 
@@ -25,3 +25,5 @@
 
 ## Acknowledgements
 I would like to thank the uploader of the windows basebox "datacastle/windows7" for making it available on vagrant cloud.
+
+NOTE: For Visual Studio to open on startup, the VM should be restarted. Since the vagrant reload provisioner is throwing errors, it has been commented in the Vagrant script. It is advised that you restart the VM after all provisioning (provisioning sets up VS to open on startup) is done if you want Visual Studio to open on start up.
