@@ -72,7 +72,7 @@ Vagrant.configure(2) do |config|
     xcopy "C:\\vagrant\\License.txt" "C:\\Users\\vagrant\\Desktop"
     xcopy "C:\\vagrant\\README.txt" "C:\\Users\\vagrant\\Desktop"
     xcopy "C:\\vagrant\\Installation.txt" "C:\\Users\\vagrant\\Desktop"
-    xcopy "C:\\vagrant\\Covana Demo CSC 510-Fall 2015 - YouTube.url" "C:\\Users\\vagrant\\Desktop"
+    xcopy "C:\\vagrant\\Covana_youtube.url" "C:\\Users\\vagrant\\Desktop"
     mkdir Covana
     xcopy /s /i /e "C:\\vagrant\\Covana" "C:\\Users\\vagrant\\Desktop\\Covana"
     #xcopy "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\devenv.exe" "C:\\Users\\vagrant\\Desktop"
