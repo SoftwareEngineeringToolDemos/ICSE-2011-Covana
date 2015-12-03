@@ -1,6 +1,6 @@
 This repository contains information related to Covana, a tool presented in the International Conference on Software Engineering 2011.
 
-[Official Project Page] (http://research.csc.ncsu.edu/ase/projects/covana/)
+Her eis the link to the [Official Project Page] (http://research.csc.ncsu.edu/ase/projects/covana/)
 
 Covana: Precise Identification of Problems for Structural Test Generation 
 ==========================================================================
@@ -15,7 +15,7 @@ http://research.csc.ncsu.edu/ase/projects/covana/
 
 This release version includes some simple examples that demonstrate Covana's effectiveness. The examples can be found under the Benchmarks project of the Covana solution.
 
-* Instruction on how to use Covana for detecting problems for the example programs
+* Instructions on how to use Covana for detecting problems for the example programs
 
 1. Select one of the examples under project Benchmarks
 2. Right click the class or method and then select "Run Pex Explorations"
