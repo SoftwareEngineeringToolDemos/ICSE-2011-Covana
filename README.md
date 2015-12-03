@@ -66,7 +66,7 @@ In this repository, for Covana you will find:
 
  :white_check_mark: [Source code for Covana](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana/tree/master/Covana)
  
- :white_check_mark: [Executable for Pex, which is required for Covana to run](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana/blob/master/pex.academic.x86.msi)
+ :white_check_mark: [Executable for Pex](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana/blob/master/pex.academic.x86.msi)(Prerequisite for Covana)
  
  :white_check_mark: [The original page for Download](https://pexase.codeplex.com/) 
 
