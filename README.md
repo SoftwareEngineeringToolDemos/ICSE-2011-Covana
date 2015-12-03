@@ -1,6 +1,8 @@
 This repository contains information related to Covana, a tool presented in the International Conference on Software Engineering 2011.
 
-Her eis the link to the [Official Project Page] (http://research.csc.ncsu.edu/ase/projects/covana/)
+Here is the link to the [Official Project Page] (http://research.csc.ncsu.edu/ase/projects/covana/)
+
+Original Readme os the tool:
 
 Covana: Precise Identification of Problems for Structural Test Generation 
 ==========================================================================
@@ -47,6 +49,8 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Please contact Xusheng Xiao (xxiao2@ncsu.edu) for any doubts or suggestions.
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-End Original Readme
 
 # ICSE-2011-COVANA
 This repository contains information related to the tool Covana . Covana was developed as an extension to Pex- A tool for automation in developer testing.
