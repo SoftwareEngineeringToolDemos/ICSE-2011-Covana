@@ -64,7 +64,7 @@ Please note that this repository _is not_ the original repository for this tool.
 
 In this repository, for Covana you will find:
 
- :white_check_mark: Source code for Covana
+ :white_check_mark: [Source code for Covana](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana/tree/master/Covana)
  
  :white_check_mark: Executable for Pex, which is required for Covana to run 
  
