@@ -60,15 +60,13 @@ The tool was originally presented in this [Paper](https://people.engr.ncsu.edu/t
 Please note that this repository _is not_ the original repository for this tool. This repository is merely for hosting the tool on GitHub and [I](https://github.com/smallen3) am not the original author of this tool. Here are some links to the original project:
 * [The Official Project Page](https://research.csc.ncsu.edu/ase/projects/covana/)
 * [A Video of the Tool](https://research.csc.ncsu.edu/ase/projects/covana/covana.html)
+* [The original page for Download](https://pexase.codeplex.com/) 
 
 
 In this repository, for Covana you will find:
-
- :white_check_mark: [Source code for Covana](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana/tree/master/Covana)
- 
- :white_check_mark: [Executable for Pex](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana/blob/master/pex.academic.x86.msi)(Prerequisite for Covana)
- 
- :white_check_mark: [The original page for Download](https://pexase.codeplex.com/) 
+ * :white_check_mark: [Source code for Covana](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana/tree/master/Covana)
+ * :white_check_mark: [Executable for Pex](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-Covana/blob/master/pex.academic.x86.msi) (Prerequisite for Covana)
+ * :x: Virtual machine containing tool (not available)
 
 
 This repository was constructed by [Sai Sindhur Malleni](https://github.com/smallen3) of Team New Hanover under the supervision of [Dr. Emerson Murphy-Hill](https://github.com/CaptainEmerson).
